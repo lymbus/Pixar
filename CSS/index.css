@@ -1,0 +1,334 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+p a{display: inline-flex;}
+li{
+    list-style-type: none;
+}
+h1,h2,h3,h4,strong{
+    font-size: inherit;
+    font-weight: inherit;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+html {
+    scroll-behavior: smooth; }
+/* ______________________ */
+
+:root{
+    --colorFondo:white;
+    --colorLetras:black;
+    --colorHover:rgba(156, 156, 156, 0.863);
+    --submenu:rgb(47, 47, 47);
+}
+body{
+    background-color: var(--colorFondo);
+
+    font-size: 100%;
+    font-family: 'open sans',sans-serif,Arial;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: var(--colorLetras);
+}
+.header{
+    width: 100%;
+    background-color: var(--colorFondo);
+    padding: 2em 0;
+}
+.centrado{
+    width: 85%;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.centrado .logo{
+    width: 100%;
+    max-width: 10em;
+}
+.fa-bars{
+    display: none;
+    cursor: pointer;
+}
+.header .nav{
+    font-size: 0.95em;
+    font-weight: 600;
+    max-width: calc( 100% - 30em );
+}
+.nav .menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: initial;
+}
+.opciones{
+    margin: 0 0 0 2.5em;
+    padding: .4em 0;
+
+    position: relative;
+}
+.opciones:hover{
+    color: var(--colorHover);
+}
+.opciones .submenu{
+    width: 100%;
+    min-width: 220px;
+    padding: 1em 0.5em;
+    opacity: 0;
+    background-color: var(--submenu);
+    color: var(--colorFondo);
+    font-size: 0.8em;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: initial;
+    align-content: center;
+
+    text-align: left;
+
+    position: absolute;
+    top: 1;
+    transform: translateY(25%);
+    transition: all 1s ease;
+    pointer-events: none;
+}
+.opciones:hover .submenu{
+    pointer-events: auto;
+    opacity: 1;
+    transform: translateY(0%);
+}
+.submenu .li2{
+    padding: 0.2em 0;
+}
+.submenu .li2:hover{
+    color: var(--colorHover);
+}
+.soul{
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: initial;
+}
+.soul .logo{
+    width:90%;
+    max-width: 45em;
+    min-height: 3em;
+}
+.columnas{
+    width: 100%;
+}
+.columnas .centrado{
+    width: 85%;
+    margin:auto;
+    padding: 6em 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: initial;
+    align-content: center;
+}
+.centrado .columna{
+    width: calc( 95% / 3 );
+}
+.centrado .columna .titular{
+    padding: 1em 0;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: initial;
+    align-content: center;
+
+    font-size: 0.9em;
+}
+.rrss{
+    width: 100%;
+    margin: auto;
+    padding: 0.6em 0;
+
+    font-size: 1.2em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: initial;
+}
+.rrss .red .enlace{
+    width:1.8em;
+    height: 1.8em;
+    background-color:var(--submenu);
+    color: var(--colorFondo);
+    transition: all 0.8s ease;
+    transform: scale(1);
+
+    margin: 0 .8em;
+    border-radius: 100%;
+}
+.rrss:hover .red .enlace{
+    color: var(--colorHover);
+}
+.rrss .red .enlace:hover{
+    background-color: var(--colorFondo);
+    color: var(--colorLetras);
+    transform: scale(1.5);
+}
+.rrss .red .enlace .fab{
+    margin: .4em 0 0 .2em;
+}
+.footer .terminos{
+    width: 100%;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: initial;
+    align-content: center;
+}
+.terminos .termino{
+    width: calc( 100% / 2 );  
+    text-align: left;    
+    padding: 0 0.5em;
+}
+.terminos .termino.impar{
+    text-align: right;
+}
+.terminos .termino .enlace{
+    display: inline-flex;
+    border-bottom: 1px solid var(--colorLetras);
+}
+.terminos .termino .enlace:hover{
+    color: var(--colorHover);
+}
+.footer .copy{
+    width: 100%;
+    padding: 1em 0 6em 0;
+}
+
+@media only screen and (max-width:960px){
+    body{
+        position: relative;
+    }
+    .header{
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+    .centrado{
+        position: relative;
+    }
+    .fa-bars{
+        display: flex;
+    }
+    .header .nav{
+        opacity: 0;
+        width: 100%;
+        position: absolute;
+
+        transition: all 0.8s ease ;
+        transform: translateX(50%);
+        top: 5.25em;
+        left: 2em;
+        margin: 0;
+        z-index: 2;
+    }
+    .header .nav.abrir{
+        display: flex;
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+    .nav .menu{
+        width: 100%;
+        margin: auto;
+        min-width: 90vw;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--submenu);
+
+        color:var(--colorFondo) ;
+
+        padding: 2em 
+    }
+    .menu .opciones{
+        width: 100%;
+        margin: auto;
+        
+        transition: all 1s ease;
+        transform: translateX(200%);
+        z-index: 1;
+    }
+    .menu .opciones.efecto{
+        transform: translateX(0%);
+    }
+    .opciones .submenu{
+        text-align: center;
+        font-size: 0.6em; 
+        z-index: 2; 
+    }
+    .opciones .submenu .li2{
+        /* width: 120px; */
+        background-color: var(--colorFondo);
+        color: var(--colorLetras);
+    }
+    .soul{
+        background-attachment: scroll;
+        margin: 3em 0 0 0;
+    }
+    .columnas .centrado .columna {
+        width: 100%;
+    }
+    .footer{
+        font-size: 0.8em;
+    }
+    .footer .terminos{
+        margin: 1em 0;
+    }
+    .footer .terminos .termino{
+        width: 100%;
+ 
+        text-align: center;
+    }
+}
+@media screen and (prefers-color-scheme:dark){
+    :root{
+        --colorFondo:rgb(26, 26, 26);
+        --colorLetras:white;
+        --colorHover:rgba(156, 156, 156, 0.863);
+        --submenu:rgb(136, 136, 136);
+   }
+}
