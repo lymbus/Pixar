@@ -15,7 +15,7 @@ p a{display: inline-flex;}
 li{
     list-style-type: none;
 }
-h1,h2,h3,h4,strong{
+h1,h2,h3,h4,h5,h6,strong{
     font-size: inherit;
     font-weight: inherit;
 }
@@ -49,7 +49,7 @@ body{
     background-color: var(--colorFondo);
     padding: 2em 0;
 }
-.centrado{
+.header .centrado{
     width: 85%;
     margin: auto;
 
@@ -63,7 +63,7 @@ body{
     width: 100%;
     max-width: 10em;
 }
-.fa-bars{
+.centrado .fa-bars{
     display: none;
     cursor: pointer;
 }
@@ -79,13 +79,13 @@ body{
     align-items: center;
     align-content: initial;
 }
-.opciones{
+.menu .opciones{
     margin: 0 0 0 2.5em;
     padding: .4em 0;
 
     position: relative;
 }
-.opciones:hover{
+.menu .opciones:hover{
     color: var(--colorHover);
 }
 .opciones .submenu{
@@ -173,7 +173,7 @@ body{
 
     font-size: 0.9em;
 }
-.rrss{
+.footer .rrss{
     width: 100%;
     margin: auto;
     padding: 0.6em 0;
@@ -246,10 +246,10 @@ body{
         top: 0;
         z-index: 1;
     }
-    .centrado{
+    .header .centrado{
         position: relative;
     }
-    .fa-bars{
+    .centrado .fa-bars{
         display: flex;
     }
     .header .nav{
@@ -323,6 +323,11 @@ body{
  
         text-align: center;
     }
+}
+@media only screen and (max-width:560px){
+.header{
+    font-size: .8em;
+}
 }
 @media screen and (prefers-color-scheme:dark){
     :root{
