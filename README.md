@@ -4,9 +4,9 @@
 
  
   :white_medium_square:Tecnologías:
-    -HTML
-    -CSS
-    -Javascript
+    #-HTML
+    #-CSS
+    #-Javascript
 
 
 
