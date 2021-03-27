@@ -1,6 +1,11 @@
 # Práctica Pixar
  
  Réplica de la página web de Pixar, responsive y con modo oscuro.
+ 
+  ## Tabla de contenidos:
+ - [Heading](#heading)
+  * [Sub-heading](#sub-heading) 
+- [Contacto](#Contacto)
 
  ## Construido con 🛠️:
 
