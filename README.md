@@ -4,15 +4,20 @@
  
   ## Tabla de contenidos:
 - [Proyecto:](#Proyecto)
+- * [Demo.](#demo) 
   * [Herramientas.](#construido-con) 
   * [Conocimientos adquiridos.](#conocimientos-adquiridos)
 - [Contacto.](#Contacto)
 - [Licencia.](#Licencia)
 - [Agradecimientos.](#Agradecimientos)
 
+ ##  Proyecto 🚀:
  
- ## 🚀 Proyecto :
- ### 🛠️ Herramientas :
+ ### Demo :
+ 
+ Puedes ver una demo de la web replicada [aquí.](https://lymbus.github.io/Pixar/) 
+ 
+ ### Herramientas 🛠️:
 
  -HTML5.
  
@@ -25,7 +30,10 @@
  -Prepros.
  
  -Git.
+ 
 ## Conocimientos adquiridos:
+
+Realizando la réplica de esta web he podido practicar flexbox, iniciarme con typescript para hacer el menú y aprender a hacer una web en mdo responsive.
 
 ## Contacto: 
 
@@ -33,7 +41,7 @@
  
  -[LinkedIn](https://www.linkedin.com/in/lydia-est%C3%A9vez-chamorro/)
  
- -[Web personal]
+ -[Web personal](https://lymbus.github.io/PORFOLIO/)
  
 ## Licencia🧾:
 
