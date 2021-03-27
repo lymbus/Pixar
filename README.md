@@ -3,12 +3,12 @@
  Réplica de la página web de Pixar, responsive y con modo oscuro.
  
   ## Tabla de contenidos:
-- [Proyecto](#Proyecto)
-  * [Construido con:](#construido-con) 
-  * [Conocimientos adquiridos:](#conocimientos-adquiridos)
-- [Contacto](#Contacto)
-- [Licencia](#Licencia)
-- [Agradecimientos](#Agradecimientos)
+- [Proyecto:](#Proyecto)
+  * [Construido con.](#construido-con) 
+  * [Conocimientos adquiridos.](#conocimientos-adquiridos)
+- [Contacto.](#Contacto)
+- [Licencia.](#Licencia)
+- [Agradecimientos.](#Agradecimientos)
 
  
  ## Proyecto :
