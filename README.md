@@ -6,7 +6,7 @@
 - [Heading](#heading)
   * [Sub-heading](#sub-heading) 
 - [Proyecto](#Proyecto)
-  * [Construido con:](#Construido-con) 
+  * [Construido con:](#Construido-con-:) 
   * [Conocimientos adquiridos:](#Conocimientos-adquiridos:)
 - [Contacto](#Contacto)
 - [Licencia](#Licencia)
