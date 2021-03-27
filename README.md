@@ -11,8 +11,8 @@
 - [Agradecimientos.](#Agradecimientos)
 
  
- ## Proyecto :
- ### Construido con 🛠️:
+ ## 🚀 Proyecto :
+ ### 🛠️ Herramientas :
 
  -HTML5.
  
