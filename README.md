@@ -4,8 +4,8 @@
  
   ## Tabla de contenidos:
 - [Proyecto](#Proyecto)
-  * [Construido con:](#construido-con:) 
-  * [Conocimientos adquiridos:](#conocimientos-adquiridos:)
+  * [Construido con:](#construido-con) 
+  * [Conocimientos adquiridos:](#conocimientos-adquiridos)
 - [Contacto](#Contacto)
 - [Licencia](#Licencia)
 - [Agradecimientos](#Agradecimientos)
