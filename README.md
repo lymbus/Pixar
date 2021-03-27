@@ -4,7 +4,7 @@
  
   ## Tabla de contenidos:
 - [Proyecto:](#Proyecto)
-  * [Construido con.](#construido-con) 
+  * [Herramientas.](#construido-con) 
   * [Conocimientos adquiridos.](#conocimientos-adquiridos)
 - [Contacto.](#Contacto)
 - [Licencia.](#Licencia)
